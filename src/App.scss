@@ -1,0 +1,39 @@
+body {
+  color: white;
+  background-color: #002020;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5rem;
+  padding: 0.5em;
+
+  a {
+    color: aqua;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.nav li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.sidebar {
+  width: 20rem;
+  //padding-left: 0.5rem;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  border-right: 1px solid var(--white);
+  color: #babcc1;
+}
+
+.body {
+  margin: 0 50px;
+}
