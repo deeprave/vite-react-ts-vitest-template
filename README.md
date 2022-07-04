@@ -16,4 +16,8 @@ that provides:
 
 This process for setting this up is relatively smooth without requiring (much) babel and other tooling.
 
-This project exists as a contract to setting up for testing with jest in vite/react projects.
+This project exists as a contrast to setting up for testing with jest in vite/react projects.
+
+## Recommendation
+
+Use vitest!
